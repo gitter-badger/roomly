@@ -18,16 +18,11 @@ var roomlySchema = new mongoose.Schema({
   roomOwner: {
     type: Boolean, reguired: true || false
   },
-  
-  //Required from the user
-  apartmentInformation: {
-    apartmentImages: String,
-    priceForLease: Number,
-    lengthOfLease: Number,
-    location: String,
-    description: String
-
-  }
+    apartmentImages: { type: String }, 
+    priceForLease:  { type: Number},
+    lengthOfLease:{ type:Number },
+    location: { type: String } ,
+    description: { type: String }
   
   //preference can go here.
   
