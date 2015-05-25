@@ -1,0 +1,29 @@
+{
+  "name": "RoommateFinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cosmos-it/roomly.git"
+  },
+  "author": "Taban and Tommy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cosmos-it/roomly/issues"
+  },
+  "homepage": "https://github.com/Cosmos-it/roomly",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "gulp": "^3.8.11",
+    "lodash": "^3.9.2",
+    "method-override": "^2.3.3",
+    "mongoose": "^3.8.28",
+    "node-restful": "^0.1.18",
+    "nodemon": "^1.3.7"
+  }
+}
